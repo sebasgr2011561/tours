@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">PrimeraPracticaAuto</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="335687370b8fc57f1eb72ced9c3f62866a41a54d5cee9d0c53ce31f6f7c65107.html">Registar Un Usuario</a></span>
+                > <span class="truncate-60"><a
+                    href="98a5da8edeb4b9fbadb9ff99e4e25dc55a7051b16f4967be1960d71b2fc6b05a.html">Registar usuario en la pagina </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 02-02-2020 18:52</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Registar Un Usuario </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Como estudiante de semillero<br />
+necesito aprender automatizaci�n a traves de ejemplos<br />
+para automatizar cualquier caso de prueba
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="bca18eb34184f466810ee7a90d04748e21a2df6dea7311083e75ce6b8ed2a2f5.html">Tag1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Registar usuario en la pagina
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Given Ingrese a la pagina" width="1366"/>
+                <img src="d8699fed40baed46fbc7da8d0af4757da153a75f323b9044dc65a0733ba50467.png" title="Given Ingrese a la pagina" width="1366"/>
+                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Sebastian opens the Inicio newtours" width="1366"/>
+                <img src="d8699fed40baed46fbc7da8d0af4757da153a75f323b9044dc65a0733ba50467.png" title="Sebastian opens the Inicio newtours" width="1366"/>
+                <img src="2e33ef65d6b1539ba59e0fcc11d5bea839fed2a38897838cc695ac73891620cb.png" title="When un usuario se registra con los datos sebas, gutierrez, 3222619909, guamerosyt@gmail.com, calle17, medallo, antioquia, 234, sebitas, sebitas1234" width="1366"/>
+                <img src="9991dd8bf29b578cf200b1ed2a8f289b1c4c5b820f7702fb3d2bd95aad144ded.png" title="Sebastian clicks on Selecciona la opci&oacute;n de registro" width="1366"/>
+                <img src="9991dd8bf29b578cf200b1ed2a8f289b1c4c5b820f7702fb3d2bd95aad144ded.png" title="Sebastian enters 'sebas' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="c8213c8bde047c9eb5373cdf16dcefa325d21e7704759e2d165c1802f1368874.png" title="Sebastian enters 'sebas' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="2566d969af8d6cfc8bd258e8fb38dc9349a90350cbbaf2d92338cea0fac287a3.png" title="Sebastian enters 'gutierrez' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="916ece493b7038f0f964bba86726972c111efbf8b10172d24ffed513b7b2cc20.png" title="Sebastian enters 'gutierrez' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="562ca32aa69449955730e3941ba8278dfe57e9c32aefb2c3546772c9164fc968.png" title="Sebastian enters '3222619909' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="1536aebc18ac212ffb05f9e683d0d3ce813c29b268a2227f17a645c2813f68ee.png" title="Sebastian enters '3222619909' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="1536aebc18ac212ffb05f9e683d0d3ce813c29b268a2227f17a645c2813f68ee.png" title="Sebastian enters 'guamerosyt@gmail.com' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="c92202ac8ec3a5bf234dc4177fa440b95ca39a8fedb7879b1f33842920f2ba04.png" title="Sebastian enters 'guamerosyt@gmail.com' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="7be9b8215f52f31fd946ccc1288b318f31f85a333fd00215e4a42c0921a3e422.png" title="Sebastian enters 'calle17' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="2196a9c99c60b7c3a43fece178bb07839c97232099bb2771d3c3bbe5e54a655d.png" title="Sebastian enters 'calle17' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="c05b1d2321c89f9c5d84d2220ebe19bcaeb06b23299affda538a4a025bc3d039.png" title="Sebastian enters 'calle17' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="b266aa6df88fa527df2e6386a7458d352b69f0e0e0a82cae19a6490feb2f97f2.png" title="Sebastian enters 'calle17' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="4a2f9fbf00142501c411419e30f24b368fff59eab6543012e09335151bd84844.png" title="Sebastian enters 'medallo' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="a43961112448e8516160c6f3236c03c4cf5062035b9ab63da0af5161db231194.png" title="Sebastian enters 'medallo' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="ee49ac44b8d21731a3d2d32bdc3f199fc1f966d434db23203292db604c8e1515.png" title="Sebastian enters 'antioquia' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="c3756f1240e1c1a53d6e2bb6d235ca869217d05c831854cecc30a08c6be39337.png" title="Sebastian enters 'antioquia' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="5b8051131702ee0abe154b6716feca1902c24292ae5d0703f36624f0a20759c2.png" title="Sebastian enters '234' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="f130bd2d187a2cf552801191eb4887574a13c8272e99306e79c2c77d44bc8bd1.png" title="Sebastian enters '234' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="f130bd2d187a2cf552801191eb4887574a13c8272e99306e79c2c77d44bc8bd1.png" title="Sebastian enters 'sebitas' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="84d214cd1e0d9b2f33951f7da67b5065252de90ab1061985f14215952dd0c373.png" title="Sebastian enters 'sebitas' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="b3c281427bf6e840000dfc203f48351ad5b5163eb1fb32486ec3cce49f26f2e8.png" title="Sebastian enters 'sebitas1234' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="c150249997fef623979c766c4494d37e2d6de85a7779598d275fbaf8ea4b1d4f.png" title="Sebastian enters 'sebitas1234' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="65ae0a6043097fbc9e0b7d6ff467417f119ebfffb6d5fb87b83b70dd28534bae.png" title="Sebastian enters 'sebitas1234' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="7d2b394d4eaf80a3ff36f4d213084b7cccdf6fcd97ca171c7ee03b0d9cfc1727.png" title="Sebastian enters 'sebitas1234' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="acb30833816d413774fe3a22d84fabc234e70c4065bbea91028dbc3d8c5e4332.png" title="Sebastian clicks on Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="2e33ef65d6b1539ba59e0fcc11d5bea839fed2a38897838cc695ac73891620cb.png" title="Sebastian clicks on Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="2e33ef65d6b1539ba59e0fcc11d5bea839fed2a38897838cc695ac73891620cb.png" title="Then el usuario ve el mensaje de registro exitoso" width="1366"/>
+                <img src="2e33ef65d6b1539ba59e0fcc11d5bea839fed2a38897838cc695ac73891620cb.png" title="Then confirmacion registro: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.9</span>
+</div>
+</body>
+</html>

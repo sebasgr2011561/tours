@@ -1,0 +1,207 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3315482000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Ingrese a la pagina",
+            "match": {
+              "location": "StepDefinitionsNewtours.ingrese_a_la_pagina()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10752377400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsNewtours.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Registar usuario en la pagina",
+        "description": "",
+        "id": "registar-un-usuario;registar-usuario-en-la-pagina",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14703911500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "un usuario se registra con los datos sebas, gutierrez, 3222619909, guamerosyt@gmail.com, calle17, medallo, antioquia, 234, sebitas, sebitas1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sebas",
+                  "offset": 37
+                },
+                {
+                  "val": "gutierrez",
+                  "offset": 44
+                },
+                {
+                  "val": "3222619909",
+                  "offset": 55
+                },
+                {
+                  "val": "guamerosyt@gmail.com",
+                  "offset": 67
+                },
+                {
+                  "val": "calle17",
+                  "offset": 89
+                },
+                {
+                  "val": "medallo",
+                  "offset": 98
+                },
+                {
+                  "val": "antioquia",
+                  "offset": 107
+                },
+                {
+                  "val": "234",
+                  "offset": 118
+                },
+                {
+                  "val": "sebitas",
+                  "offset": 123
+                },
+                {
+                  "val": "sebitas1234",
+                  "offset": 132
+                }
+              ],
+              "location": "StepDefinitionsNewtours.un_usuario_se_registra(String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1142437500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "el usuario ve el mensaje de registro exitoso",
+            "match": {
+              "location": "StepDefinitionsNewtours.el_usuario_ve_el_mensaje_de_registro_exitoso()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2053528500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Ingrese a la pagina",
+            "match": {
+              "location": "StepDefinitionsNewtours.ingrese_a_la_pagina()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8897591300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsNewtours.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Iniciar sesion con un usuario",
+        "description": "",
+        "id": "registar-un-usuario;iniciar-sesion-con-un-usuario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5967605700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "El usuario hace login con las credenciales sebitas y sebitas1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sebitas",
+                  "offset": 43
+                },
+                {
+                  "val": "sebitas1234",
+                  "offset": 53
+                }
+              ],
+              "location": "StepDefinitionsNewtours.el_usuario_hace_login_con_las_credenciales(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1014653900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "EL usuario se logea correctamente",
+            "match": {
+              "location": "StepDefinitionsNewtours.el_usuario_se_logea_correctamente()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Registar un usuario",
+    "description": "   Como estudiante de semillero\n  necesito aprender automatizaci�n a traves de ejemplos\n  para automatizar cualquier caso de prueba",
+    "id": "registar-un-usuario",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/HU001_RegistarNewtours.feature",
+    "tags": []
+  }
+]
